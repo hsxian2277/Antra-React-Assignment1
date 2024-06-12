@@ -1,0 +1,71 @@
+h1 {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+
+input {
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid lightblue;
+}
+
+#fname, #lname, #password1, #password2 {
+    width: 45%;
+}
+
+#phone, #email {
+    width: 95%;
+}
+
+#agree {
+    vertical-align: middle;
+}
+
+label[for="agree"] {
+    font-weight: bold;
+}
+
+#disclaimer {
+    margin-left: 5px;
+}
+
+button {
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#register {
+    background-color: lightskyblue;
+}
+
+#signin {
+    background-color: lightgreen;
+}
+
+span {
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 980px) {
+    form {
+      width: 100%;
+    }
+}
